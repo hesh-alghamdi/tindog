@@ -1,0 +1,237 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 15% 15%;
+}
+
+#title-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+/* Download bottns */
+.download-botton {
+    margin: 5% 3% 5% 0;
+}
+
+/* Images */
+#iphonemockup {
+    width: 50%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features */
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 4;
+}
+
+.features-container {
+    padding: 7% 15%;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icons {
+    font-size: 64px;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+    font-size: 64px;
+    color: #ff4c68;
+}
+
+.features-h3 {
+    font-weight: 700;
+}
+
+.features-p {
+    color: #8f8f8f;
+}
+
+/* Testimonial section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press {
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 20%;
+    padding: 10px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Price section */
+
+#pricing{
+    padding: 20px;
+}
+
+.price-head{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+
+.price-p{
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.price-card-padding{
+    padding: 15px;
+}
+
+.card-header {
+    background-color: #ef8172;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.card-body {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.price-h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+/* .card-footer{
+    background-color: #ef8172;
+} */
+.price-btn {
+    border-color: #ef8172;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.price-btn:hover {
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 5%;
+    text-align: center;
+}
+
+.cta-h3{
+    font-size: 3.3rem;
+    font-weight: 900;
+}
+
+/* footer */
+
+#footer{
+    background-color: white;
+}
+
+.footer-icons{
+    color: black;
+    padding: 0 18px;
+
+}
+
+.footer-icons:hover{
+    color: #ef8172;
+}
+
+.copyright{
+    text-align: center;
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 2% 0;
+}
+/* mobileview */
+
+@media (max-width: 991px) {
+
+    #title{
+        text-align: center;
+    }
+
+    #iphonemockup{
+        position: static;
+        transform: rotate(0);
+    }
+
+    .press-logo {
+        width: 25%;
+    }
+}
