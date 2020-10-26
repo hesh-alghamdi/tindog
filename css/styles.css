@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
 #title {
@@ -16,6 +17,7 @@ body {
     font-size: 3rem;
     line-height: 1.5;
     color: white;
+    text-align: left;
 }
 
 /* navigation bar */
@@ -60,13 +62,12 @@ body {
     z-index: 4;
 }
 
-.features-container {
-    padding: 7% 15%;
+.features-box {
+    padding: 5%;
 }
 
-.features-box {
-    text-align: center;
-    padding: 5%;
+.features-container {
+    padding: 7% 15%;
 }
 
 .features-icons {
@@ -90,8 +91,6 @@ body {
 
 /* Testimonial section */
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -112,7 +111,6 @@ body {
 /* Press section */
 #press {
     padding-bottom: 3%;
-    text-align: center;
     background-color: #ef8172;
 }
 
@@ -143,9 +141,9 @@ body {
     font-size: 1.5rem;
 }
 
-.card {
+/* .card {
     text-align: center;
-}
+} */
 
 .price-card-padding{
     padding: 15px;
@@ -168,9 +166,7 @@ body {
     font-weight: 600;
 }
 
-/* .card-footer{
-    background-color: #ef8172;
-} */
+
 .price-btn {
     border-color: #ef8172;
     font-size: 1.4rem;
@@ -187,7 +183,6 @@ body {
 #cta{
     background-color: #ff4c68;
     padding: 5%;
-    text-align: center;
 }
 
 .cta-h3{
@@ -213,7 +208,6 @@ body {
 }
 
 .copyright{
-    text-align: center;
     color: #8f8f8f;
     font-weight: 400;
     font-size: 1rem;
